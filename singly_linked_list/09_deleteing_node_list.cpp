@@ -78,18 +78,17 @@ void display(Node* &header){
 
 
 int main(){
-    Node*first= new Node(20);
+    Node*header= NULL;
     // creating a new node
 
-    Node*header=first;
 
     Insertion(header,30);
     Insertion(header,40);
     Insertion(header,50);
     Insertion(header,60);
-display(first);
-    delete_node(first,1);
-display(first);
+display(header);
+    delete_node(header,1);
+display(header);
     return 0;
 
 }

@@ -38,6 +38,7 @@ void insertat_tail(Node* &tail, int d){
 
 // Insertion between the linked list.
 void insertion(Node* & head,int position, int d){
+    
     Node*temp=head; 
     int count=1;
 
@@ -117,7 +118,6 @@ int main(){
 // cout<<"Insertion between the linked list: "<<endl;
 // display_recursive(header);
 // displaying insertion at the endl or to say tail.
-
 
 
 

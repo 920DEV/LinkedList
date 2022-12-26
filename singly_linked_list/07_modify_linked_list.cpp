@@ -28,8 +28,11 @@ Node LinearSearch(Node* &header, int key){
     while(temp!=NULL){
         if(temp->data == key){
             cout<<"The element we were searching were found:"<<endl;
+
             q->next=temp->next;
+
             temp->next=header;
+
             header=temp;
             
         }
@@ -37,6 +40,7 @@ Node LinearSearch(Node* &header, int key){
         temp=temp->next;
     }
 }
+
 
 
 

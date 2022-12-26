@@ -52,7 +52,6 @@ display(pointer);
  insertat_head(pointer,16);     // function calling for insertion of element at head in linked list.
 
 display(pointer);
-return 0;  
-
-
+return 0;
+ 
 }
